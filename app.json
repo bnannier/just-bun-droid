@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "bun-app",
+    "description": "This project is really great.",
+    "slug": "bun-app",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.capew.bun",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAwTNfV5O-Msq__-SRyc_2FPJb22aJnE-s"
+      }
+    },
+    "android": {
+      "package": "com.capew.bun",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCYoy8V3L7AufvSc-iIBLEWofyJhQ-bOxM"
+        }
+      }
+    }
+  }
+}
