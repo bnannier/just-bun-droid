@@ -1,0 +1,21 @@
+[
+  {
+    "AD_UNIT_ID_FOR_BANNER_TEST": "ca-app-pub-3940256099942544/2934735716",
+    "AD_UNIT_ID_FOR_INTERSTITIAL_TEST": "ca-app-pub-3940256099942544/4411468910",
+    "CLIENT_ID": "1023317111456-bpjft87catkn7k3ojcoqk9loimq6kcv7.apps.googleusercontent.com",
+    "REVERSED_CLIENT_ID": "com.googleusercontent.apps.1023317111456-bpjft87catkn7k3ojcoqk9loimq6kcv7",
+    "API_KEY": "AIzaSyC-yLjH7Tt4vhoPSULBzJ4pXcnQY3FqG6k",
+    "GCM_SENDER_ID": "1023317111456",
+    "PLIST_VERSION": "1",
+    "BUNDLE_ID": "host.exp.Exponent",
+    "PROJECT_ID": "just-bun",
+    "STORAGE_BUCKET": "just-bun.appspot.com",
+    "IS_ADS_ENABLED": true,
+    "IS_ANALYTICS_ENABLED": false,
+    "IS_APPINVITE_ENABLED": false,
+    "IS_GCM_ENABLED": true,
+    "IS_SIGNIN_ENABLED": true,
+    "GOOGLE_APP_ID": "1:1023317111456:ios:0a39df54a288adff",
+    "DATABASE_URL": "https://just-bun.firebaseio.com"
+  }
+]
