@@ -178,7 +178,6 @@ export default class App extends React.Component {
         }
     }
 
-
     render() {
         return (
             <MapView
@@ -222,6 +221,5 @@ export default class App extends React.Component {
                 longitudeDelta: this.state.region.longitudeDelta,
             }
         });
-
     };
 }
