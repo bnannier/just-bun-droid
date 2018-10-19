@@ -184,7 +184,7 @@ export default class App extends React.Component {
             <MapView
                 style={{flex: 1}}
                 showsUserLocation={true}
-                provider = { MapView.PROVIDER_GOOGLE }
+                provider={MapView.PROVIDER_GOOGLE}
                 customMapStyle={this.state.mapStyle}
                 region={this.state.region}
                 followsUserLocation={true}
@@ -205,7 +205,7 @@ export default class App extends React.Component {
     }
 
     _getLocationAsync = async () => {
-        let { status } = await Permissions.askAsync(Permissions.LOCATION);
+        let {status} = await Permissions.askAsync(Permissions.LOCATION);
         if (status !== 'granted') {
             this.setState({
                 errorMessage: 'Permission to access location was denied',
@@ -221,7 +221,7 @@ export default class App extends React.Component {
                 latitudeDelta: this.state.region.latitudeDelta,
                 longitudeDelta: this.state.region.longitudeDelta,
             }
-         });
+        });
 
     };
 }

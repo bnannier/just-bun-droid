@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "bun-app",
+    "name": "just-bun",
     "description": "This project is really great.",
-    "slug": "bun-app",
+    "slug": "just-bun",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": [
