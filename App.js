@@ -1,6 +1,9 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { Constants, Location, MapView, Permissions } from 'expo';
+import * as firebase from 'firebase';
+
+import firebaseConfig from './config/firebase';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -176,6 +179,8 @@ export default class App extends React.Component {
                 }
             ]
         }
+
+        firebase.initializeApp(firebaseConfig);
     }
 
     render() {
